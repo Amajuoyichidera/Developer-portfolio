@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prata', serif;
+}
+.sec1 {
+    background-color: black;
+    color: white;
+}
+.one {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+button {
+    background-color: #FBE850;
+    color: black;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.help {
+  padding-left: 100px; 
+  padding-top: 50px; 
+}
+.help h1  {
+    padding-bottom: 15px;
+}
+.help p {
+    padding-top:10px;
+    padding-bottom: 30px;
+}
+.fig1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.fig2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.fig2 h2 {
+    padding-top: 30px;
+}
+.fig2 p {
+    padding-bottom: 30px;
+}
+
+/* section two styling */
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E3038;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.sec2 h2 {
+    padding-bottom: 20px;
+}
+.sec2 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* section three styling */
+.sec3 {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.sec3 h2 {
+    padding-bottom: 20px;
+}
+.sec3 p {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+/* section four styling */
+.sec4 {
+    background-color: #2E3038;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: cubic-bezier(1, 0, 0, 1);
+   
+}
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-size: 1.3vh;
+        width: 100%;
+        scroll-behavior: smooth;
+    }
+    .help p {
+        word-wrap: break-word;
+    }
+    .one {
+        display: none;
+    }
+    .sec1 {
+       margin-left: -80px;
+    }
+    .fig1 {
+        display: flex;
+        padding: 2px; 
+        flex-direction: column;
+    }
+   .wal {
+       height: 2vh;
+   }
+   .fig2 {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       margin-left: 10%;
+   }
+   .sec2 {
+       display: flex;
+       flex-direction: column;
+       padding-left: 10px;
+   }
+   .fig2 h2 {
+       margin-left: 50px;
+   }
+   button {
+       padding: 5px;
+   }
+   .yelp {
+       width: 100%;
+       padding-left: 1px;
+   }
+  .sec3 {
+      padding-left: 10px;
+  }
+  .div1 {
+      display: flex;
+      flex-direction: row;
+      margin-left: 15%;
+      padding-top: 10px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  }
+}
