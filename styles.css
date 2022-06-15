@@ -176,4 +176,7 @@ button:hover {
       text-align: center;
       align-items: center;
   }
+  p {
+    line-height: 2.3vh;
+  }
 }
